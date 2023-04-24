@@ -168,7 +168,7 @@ button{
     display: none;
 }
 
-.todo__item-edit .item__name {
+.todo__item-edit .item__input{
     display: inline-block;
     width: 224px;
 }
