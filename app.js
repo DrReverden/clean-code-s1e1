@@ -104,6 +104,7 @@ var editTask=function(){
 
     //toggle .editmode on the parent.
     listItem.classList.toggle("todo__item-edit");
+
 };
 
 
@@ -140,6 +141,7 @@ var taskIncomplete=function(){
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
+    listItem.classList.toggle('completed__item')
 }
 
 
